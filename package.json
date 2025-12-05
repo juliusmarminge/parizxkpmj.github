@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "VERCEL=1 vite build && vc deploy --prebuilt",
+    "dev": "vite dev",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.139.14",
+    "@tanstack/react-start": "^1.139.14",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "nitro": "npm:nitro-nightly@latest",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "vite": "npm:rolldown-vite@latest"
+  }
+}
