@@ -10,9 +10,6 @@ export default defineConfig({
     }),
     nitro({
       serverDir: "./server",
-      renderer: {
-        handler: "./renderer.ts",
-      },
     }),
     viteReact(),
   ],
