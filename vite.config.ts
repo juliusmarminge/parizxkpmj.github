@@ -7,9 +7,6 @@ export default defineConfig({
   plugins: [
     tanstackStart({
       srcDirectory: './app',
-      server: {
-        entry: "./server/routes/[...].ts",
-      },
     }),
     nitro({
       serverDir: "./server",
